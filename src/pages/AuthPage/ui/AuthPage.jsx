@@ -1,6 +1,9 @@
-import React from 'react';
+import React, {useState} from 'react';
 
 const AuthPage = () => {
+
+    const [email, setEmail] = useState('')
+
     return (
         <div>
             Auth
