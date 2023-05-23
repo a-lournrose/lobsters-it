@@ -1,13 +1,15 @@
-import React, {useState} from 'react';
+import React from 'react';
+import Slider from "../../../UI/Slider/Slider";
 
 const AuthPage = () => {
 
-    const [email, setEmail] = useState('')
-
     return (
-        <div>
-            Auth
-        </div>
+        <Slider inSliders={[
+            {title: 'Санкт-Петербург', subTitle: 'Я люблю это небо за смелость быть голубым сквозь серость.', img: '/SPB.png'},
+            {title: 'Москва', subTitle: 'Москва ... впцу.', img: '/SPB.png'},
+            {title: 'avasd', subTitle: '1232222', img: '/SPB.png'}
+        ]}>
+        </Slider>
     );
 };
 
