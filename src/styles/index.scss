@@ -1,4 +1,14 @@
 @import 'reset';
 @import 'variables';
 @import 'typography';
+@import "mixins/media_mixin";
 @import 'classes';
+
+html{
+  font-size: 16px;
+
+  @include _1170{
+    font-size: 14px;
+  }
+
+}

@@ -4,6 +4,7 @@ import App from './App';
 import Store from "./store/store";
 import {BrowserRouter} from "react-router-dom";
 import 'antd/dist/reset.css';
+import './styles/index.scss'
 
 const store = new Store();
 
