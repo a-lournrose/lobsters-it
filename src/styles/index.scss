@@ -5,6 +5,7 @@
 @import 'classes';
 
 html{
+  background:  #EDEDED;
   font-size: 16px;
 
   @include _1170{
