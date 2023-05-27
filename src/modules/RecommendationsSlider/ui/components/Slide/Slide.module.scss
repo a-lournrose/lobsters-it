@@ -1,0 +1,10 @@
+.slide {
+  width: 1000px;
+  height: 480px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 32px;
+}
+.slide__line {
+  border-bottom: 1px solid var(--dark-color);
+}
