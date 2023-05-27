@@ -1,0 +1,45 @@
+.card{
+  margin: 100px auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 22.5rem;
+  height: 31.25rem;
+  padding: 2rem 0;
+  background-color: white;
+  border-radius: 20px 20px 40px 40px;
+  .img{
+    width: 100%;
+    height: 238px;
+    border-radius: 16px;
+    background-position: center!important;
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
+  }
+  .text{
+    padding: 0 2rem;
+    margin: 0.625rem 0 auto 0;
+    width: 100%;
+    text-align: start;
+    .city{
+      margin: 0.5rem 0;
+      font-size: 1.5rem;
+    }
+    .priceStart{
+      font-size: 1.25rem;
+      color: rgba(31, 31, 31, 0.5)
+    }
+  }
+  .footer{
+    padding: 0 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .buttonLike{
+      cursor: pointer;
+      width: 4rem;
+      height: 4rem;
+    }
+  }
+}
