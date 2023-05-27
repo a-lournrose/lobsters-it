@@ -1,17 +1,17 @@
-import {APP_ROUTE, AUTH_ROUTE} from "../constants/constants";
-import {AuthPage} from "../pages/AuthPage";
+import {APP_ROUTE, PERSONAL_AREA_ROUTE} from "../constants/constants";
 import {AppPage} from "../pages/AppPage";
+import {PersonalAccountPage} from "../pages/PersonalAccountPage";
 
 export const publicRoutes = [
     {
-        path: AUTH_ROUTE,
-        element: <AuthPage/>
+        path: APP_ROUTE,
+        element: <AppPage/>
     }
 ]
 
 export const privateRoutes = [
     {
-        path: APP_ROUTE,
-        element: <AppPage/>
+        path: PERSONAL_AREA_ROUTE,
+        element: <PersonalAccountPage/>
     }
 ]
