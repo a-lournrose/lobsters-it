@@ -1,17 +1,17 @@
+@import "src/styles/mixins/media_mixin";
 .slider{
   margin-top: 20px;
-  max-width: 55vw;
+  max-width: 859px;
   overflow: visible;
   &_item{
-    display: flex;
-    justify-content: space-between;
     background-color: white;
-    max-width: 55vw;
+    max-width: 859px;
     padding: 2rem;
-    border: 2px solid rgba(46, 46, 46, 1);
-    border-radius: 60px;
+    border-radius: 40px;
     .slider_leftBlock{
-      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: start;
       width: 100%;
       .slider_text{
         h3{
@@ -19,6 +19,10 @@
           font-size: 1.75rem;
           line-height: 2.5rem;
           margin: 0;
+
+          @include _768{
+            text-align: center;
+          }
         }
         .slider_line{
           border: 1px solid rgba(0, 0, 0, 0.07);
@@ -26,30 +30,50 @@
         }
         p{
           color: rgba(0, 0, 0, 0.8);
-          max-width: 303px;
+          width: 260px;
           font-size: 1.125rem;
           line-height: 1.7rem;
+
+          @include _768{
+            width: 100%;
+            font-size: 1.3rem;
+            text-align: center;
+          }
         }
       }
       .slider_btn{
-        position: absolute;
-        bottom: 0;
-        left: 0;
+        width: 90%;
         cursor: pointer;
         padding: 0.75rem 1.687rem;
         color: rgba(0, 0, 0, 0.8);
         font-size: 1.25rem;
         white-space: nowrap;
         border: 2px solid rgba(0, 0, 0, 0.8);
-        border-radius: 32px;
+        border-radius: 16px;
+      }
+
+      @include _768{
+        align-items: center;
       }
     }
     .slider_rightBlock{
-      img{
-        object-fit: cover;
-        height: 21.062rem;
-        width: 37.5rem;
+      background-position: center!important;
+      background-repeat: no-repeat!important;
+      background-size: cover!important;
+      border-radius: 8px;
+      height: 300px;
+      width: 1340px;
+      margin-left: 5px;
+
+      @include _768{
+        width: 100%;
+        margin-left: 0;
       }
+    }
+    @include _768{
+      flex-direction: column-reverse;
+      height: 470px;
+
     }
   }
 }

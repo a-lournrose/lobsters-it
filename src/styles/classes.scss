@@ -1,13 +1,13 @@
 .flex-center {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: flex!important;
+  align-items: center!important;
+  justify-content: center!important;
 }
 .col-flex-center {
-  display: flex;
-  align-items: center;
+  display: flex!important;
+  align-items: center!important;
 }
 .row-flex-center {
-  display: flex;
-  justify-content: center;
+  display: flex!important;
+  justify-content: center!important;
 }

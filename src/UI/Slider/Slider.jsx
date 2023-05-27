@@ -13,20 +13,18 @@ const Slider = ({inSliders}) => {
                 spaceBetween={30}
             >
                 {inSliders.map(slider => (
-                    <SwiperSlide key={slider.title} className={stl.slider_item}>
+                    <SwiperSlide key={slider.title} className={`${stl.slider_item} flex-center`}>
                         <div className={stl.slider_leftBlock}>
                             <div className={stl.slider_text}>
                                 <h3>{slider.title}</h3>
                                 <div className={stl.slider_line}></div>
                                 <p>{slider.subTitle}</p>
                             </div>
-                            <div className={stl.slider_btn}>
+                            <div className={`${stl.slider_btn} flex-center`}>
                                 поехать !
                             </div>
                         </div>
-                        <div className={stl.slider_rightBlock}>
-                            <img src={slider.img} alt="img"/>
-                        </div>
+                        <div style={{background: `url(${slider.img})`}} className={stl.slider_rightBlock}></div>
                     </SwiperSlide>
                 ))}
             </Swiper>
