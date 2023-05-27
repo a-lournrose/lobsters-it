@@ -1,0 +1,16 @@
+.button {
+  padding: 14px 32px;
+  border: 2px solid var(--dark-color);
+  border-radius: 16px;
+  transition: all .02s linear;
+  cursor: pointer;
+
+  font-size: 20px;
+  font-weight: 500;
+
+  display: flex;
+  align-items: center;
+}
+.button img {
+  margin-left: 20px;
+}

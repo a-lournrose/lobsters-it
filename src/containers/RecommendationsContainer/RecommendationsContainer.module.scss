@@ -1,0 +1,13 @@
+.container {
+  background-color: white;
+  border-radius: 40px 40px 0 0;
+}
+.container__wrapper {
+  max-width: var(--wrapper-width);
+  margin: 0 auto;
+  padding: var(--vertical-padding-container) 0;
+}
+.container__wrapper h2 {
+  font-weight: 600;
+  font-size: 48px;
+}

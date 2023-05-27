@@ -1,2 +1,2 @@
-export const APP_ROUTE = '/app';
+export const APP_ROUTE = '/';
 export const PERSONAL_AREA_ROUTE = '/personalarea';

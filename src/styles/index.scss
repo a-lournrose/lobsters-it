@@ -4,10 +4,11 @@
 @import "mixins/media_mixin";
 @import 'classes';
 
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
 html{
-  body{
-    padding: 0 8px;
-  }
   background:  #EDEDED;
   font-size: 16px;
 
