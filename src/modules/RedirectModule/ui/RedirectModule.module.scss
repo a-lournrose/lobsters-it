@@ -1,0 +1,36 @@
+.cards {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+
+  &__separator {
+    background-color: white;
+    border: 2px solid var(--dark-color);
+    border-radius: 16px;
+    padding: 16px 64px;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(9deg);
+  }
+
+  &__card {
+    width: 50%;
+    height: 480px;
+    border-radius: 20px;
+    border: 2px solid var(--dark-color);
+
+    text-align: center;
+  }
+
+  .card__text_container {
+    height: 155px;
+    width: 100%;
+    border-bottom: 1px dashed lightgray;
+    padding: 48px;
+
+    margin-bottom: 38px;
+  }
+}
