@@ -6,11 +6,11 @@ const CardTour = ({city, priceStart}) => {
         <div className={`${stl.card}`}>
             <div style={{background: 'url(/img/SPB.png)'}} className={stl.img}></div>
             <div className={stl.text}>
-                <p className={stl.city}>{city}Санкт-Петербург</p>
-                <p className={stl.priceStart}>{priceStart}от 2500р</p>
+                <p className={stl.city}>{city}</p>
+                <p className={stl.priceStart}>{priceStart}</p>
             </div>
             <div className={stl.footer}>
-                <ButtonBuy/>
+                <ButtonBuy>Купить</ButtonBuy>
                 <div className={stl.buttonLike}>
                     <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <rect width="64" height="64" rx="16" fill="white"/>
