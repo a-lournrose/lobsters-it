@@ -6,7 +6,7 @@ const CentralBannerModule = () => {
     return (
         <div className={cls.banner} style={{background: `url(${BannerImage})`}}>
             <div className={cls.banner__text}>
-                Начинаются здесь!<br/> Путешествия
+                Путешествия<br/>начинаются здесь!
             </div>
         </div>
     );

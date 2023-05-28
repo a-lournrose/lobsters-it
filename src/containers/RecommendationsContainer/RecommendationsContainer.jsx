@@ -7,7 +7,7 @@ const RecommendationsContainer = () => {
     return (
         <div className={cls.container}>
             <div className={cls.container__wrapper}>
-                <h2>Рекомендации:</h2>
+                <h2>Рекомендации</h2>
                 <RecommendationsSlider/>
                 <div style={{marginTop: '76px'}}>
                     <RedirectModule/>
