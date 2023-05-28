@@ -1,0 +1,26 @@
+.slider {
+  position: relative;
+
+  &__next_button {
+    width: 64px;
+    height: 64px;
+    border-radius: 16px;
+    background-color: var(--primary-color);
+    cursor: pointer;
+
+    position: absolute;
+    bottom: 88px;
+    right: -32px;
+    z-index: 2;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: all .05s linear;
+  }
+
+  &__next_button:hover {
+    background-color: var(--primary-color-light);
+  }
+}

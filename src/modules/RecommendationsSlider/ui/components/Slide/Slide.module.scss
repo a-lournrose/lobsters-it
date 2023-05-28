@@ -4,7 +4,29 @@
   background-color: white;
   border-radius: 20px;
   padding: 32px;
-}
-.slide__line {
-  border-bottom: 1px solid var(--dark-color);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &__line {
+    border-bottom: 1px solid lightgray;
+
+    margin: 14px 0;
+  }
+
+  &__text {
+
+  }
+
+  &__image {
+    width: 1127px;
+    height: 100%;
+
+    margin-left: 24px;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }

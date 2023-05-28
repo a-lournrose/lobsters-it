@@ -7,6 +7,10 @@
   max-width: var(--wrapper-width);
   margin: 0 auto;
   padding: var(--vertical-padding-container) 0;
+
+  h2 {
+    margin-bottom: 32px;
+  }
 }
 .container__wrapper h2 {
   font-weight: 600;

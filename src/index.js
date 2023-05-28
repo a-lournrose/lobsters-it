@@ -4,6 +4,7 @@ import App from './App';
 import Store from "./store/store";
 import {BrowserRouter} from "react-router-dom";
 import 'swiper/css';
+import "swiper/css/pagination";
 import './styles/index.scss'
 
 const store = new Store();
