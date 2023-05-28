@@ -1,6 +1,7 @@
 import React from 'react';
 import cls from './Slide.module.scss';
 import SliderImage1 from '../../../../../assets/images/rec-slider/slider-image-1.jpg';
+import Button from "../../../../../UI/Button/Button";
 
 const Slide = () => {
     return (
@@ -9,6 +10,7 @@ const Slide = () => {
                 <h3>Санкт-Петербург</h3>
                 <div className={cls.slide__line}></div>
                 <p>Я люблю это небо за смелость быть голубым сквозь серость.</p>
+                <Button>Поехать!</Button>
             </div>
             <div className={cls.slide__image} style={{background: `url(${SliderImage1})`}}></div>
         </div>

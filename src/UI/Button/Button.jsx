@@ -1,11 +1,11 @@
 import React from 'react';
-import stl from './ButtonBuy.module.scss'
-const ButtonBuy = () => {
+import stl from './Button.module.scss'
+const Button = ({children}) => {
     return (
         <div className={`${stl.button} flex-center`}>
-            Купить
+            {children}
         </div>
     );
 };
 
-export default ButtonBuy;
+export default Button;

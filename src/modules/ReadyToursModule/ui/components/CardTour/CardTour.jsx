@@ -1,6 +1,6 @@
 import React from 'react';
 import stl from  './CardTour.module.scss'
-import ButtonBuy from "../../../../../UI/ButtonBuy/ButtonBuy";
+import Button from "../../../../../UI/Button/Button";
 const CardTour = ({city, priceStart}) => {
     return (
         <div className={`${stl.card}`}>
@@ -10,7 +10,7 @@ const CardTour = ({city, priceStart}) => {
                 <p className={stl.priceStart}>{priceStart}от 2500р</p>
             </div>
             <div className={stl.footer}>
-                <ButtonBuy/>
+                <Button/>
                 <div className={stl.buttonLike}>
                     <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <rect width="64" height="64" rx="16" fill="white"/>
