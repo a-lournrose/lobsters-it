@@ -6,12 +6,11 @@
   background-position: center;
 }
 .banner__text {
-  height: 100%;
+  height: calc(100% - 38px);
   display: flex;
   align-items: center;
   justify-content: center;
   text-transform: uppercase;
-  text-align: center;
 
   font-size: 128px;
   font-weight: 600;

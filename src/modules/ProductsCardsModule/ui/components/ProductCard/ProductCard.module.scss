@@ -1,0 +1,47 @@
+.card {
+  width: 232px;
+  height: 322px;
+  border-radius: 20px;
+  background-color: white;
+  padding: 11px 16px;
+
+  position: relative;
+
+  &__count_field {
+    position: absolute;
+    bottom: 11px;
+    right: 16px;
+
+    color: var(--dark-color);
+    font-size: 20px;
+    font-weight: 500;
+  }
+  &__type_field {
+    color: #887fef;
+    font-size: 16px;
+    font-weight: 400;
+
+    margin-bottom: 5px;
+  }
+  &__date_field {
+    color: rgba(33, 33, 33, 0.71);
+    font-size: 14px;
+    font-weight: 400;
+
+    margin-bottom: 5px;
+  }
+  &__title_field {
+    color: var(--dark-color);
+    font-size: 20px;
+    font-weight: 400;
+
+    margin-bottom: 5px;
+  }
+  &__address_field {
+    color: rgba(58, 57, 57, 0.47);
+    font-size: 14px;
+    font-weight: 400;
+
+    margin-bottom: 5px;
+  }
+}

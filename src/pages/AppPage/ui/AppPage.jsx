@@ -2,6 +2,7 @@ import React from 'react';
 import {CentralBannerModule} from "../../../modules/CentralBannerModule";
 import RecommendationsContainer from "../../../containers/RecommendationsContainer/RecommendationsContainer";
 import ReadyToursContainer from "../../../containers/ReadyToursContainer/ReadyToursContainer";
+import CollectTourContainer from "../../../containers/CollectTourContainer/CollectTourContainer";
 
 const AppPage = () => {
     return (
@@ -9,6 +10,7 @@ const AppPage = () => {
             <CentralBannerModule/>
             <RecommendationsContainer/>
             <ReadyToursContainer/>
+            <CollectTourContainer/>
         </div>
     );
 };
