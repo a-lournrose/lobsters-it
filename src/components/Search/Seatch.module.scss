@@ -1,0 +1,40 @@
+.search {
+  display: flex;
+  align-items: center;
+  margin: 1.5rem 0 2rem 0;
+  background-color: white;
+  padding: 0.5rem 2rem;
+  border-radius: 20px;
+
+  input {
+    width: 41.375rem;
+    height: 3rem;
+    color: rgba(31, 31, 31, 0.5);
+    font-size: 1.25rem;
+    border: none;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  .calendar {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 0.5625rem 4.8125rem 0.5625rem 4.1875rem;
+    border-right: 2px solid rgba(31, 31, 31, 0.15);
+    border-left: 2px solid rgba(31, 31, 31, 0.15);
+
+    p {
+      white-space: nowrap;
+      line-height: 1.875rem;
+      font-size: 1.25rem;
+      margin-left: 4.75rem;
+    }
+  }
+
+  .btn {
+    margin: 0 auto;
+  }
+}

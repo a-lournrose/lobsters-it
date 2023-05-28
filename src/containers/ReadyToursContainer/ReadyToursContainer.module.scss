@@ -1,45 +1,33 @@
 .container{
-  padding: 76px 116px;
+  position: relative;
+  padding: 4.5rem 7.25rem;
   background-color: #BEB8EB;
   h2{
-    line-height: 72px;
+    line-height: 4.5rem;
     font-weight: 600;
     color: white;
     font-size: 3rem;
   }
-  .search{
+  .filters{
     display: flex;
     align-items: center;
-    margin: 24px 0 32px 0;
-    background-color: white;
-    padding: 8px 32px;
-    border-radius: 20px;
-    input{
-      width: 662px;
-      height: 48px;
-      color: rgba(31, 31, 31, 0.5);
-      font-size: 1.25rem;
-      border: none;
-      &:focus{
-        outline: none;
-      }
-    }
-    .calendar{
-      display: flex;
-      align-items: center;
-      cursor: pointer;
-      padding: 9px 77px 9px 67px;
-      border-right: 2px solid rgba(31, 31, 31, 0.15);
-      border-left: 2px solid rgba(31, 31, 31, 0.15);
-      p{
-        white-space: nowrap;
-        line-height: 30px;
-        font-size: 1.25rem;
-        margin-left: 76px;
-      }
-    }
+    margin-bottom: 1.5rem;
   }
-  .btn{
-    margin: 0 auto;
+  .filter{
+    display: flex;
+    align-items: center;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    padding: 5px 24px;
+    background-color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    p{
+      white-space: nowrap;
+      margin-right: 8px;
+    }
+    &:not(:last-child) {
+      margin-right: 1rem;
+    }
   }
 }
