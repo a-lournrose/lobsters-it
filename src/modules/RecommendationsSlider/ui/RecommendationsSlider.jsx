@@ -1,5 +1,5 @@
 import React, {useRef} from 'react';
-import {Swiper, SwiperSlide, useSwiper} from "swiper/react";
+import {Swiper, SwiperSlide} from "swiper/react";
 import Slide from "./components/Slide/Slide";
 import cls from './RecommendationsSlider.module.scss';
 import ArrowRight from '../../../assets/images/arrow-right.svg';

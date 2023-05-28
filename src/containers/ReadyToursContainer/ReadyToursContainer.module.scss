@@ -1,11 +1,41 @@
 .container{
   position: relative;
-  padding: 4.5rem 7.25rem;
+  padding: 4.5rem 12.75rem;
   background-color: #BEB8EB;
   h2{
     line-height: 4.5rem;
     font-weight: 600;
     color: white;
     font-size: 3rem;
+  }
+  .slider{
+    position: relative;
+    display: flex;
+    align-items: center;
+    .btn{
+      min-width: 4rem;
+      min-height: 4rem;
+      border-radius: 16px;
+      background-color: var(--primary-color);
+      cursor: pointer;
+
+      position: absolute;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      transition: all .05s linear;
+
+    }
+    .btn:hover{
+      background-color: var(--primary-color-light);
+    }
+  }
+  .btn_left{
+    left: -100px;
+  }
+  .btn_right{
+    right: -100px;
   }
 }
